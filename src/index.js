@@ -114,7 +114,7 @@ btn_calcular.addEventListener("click", () => {
   let nota_postfija = notacion_postfija(expresion2);
   let postfija = `<p><strong>Notación postfija:</strong> ${nota_postfija.join(" ")}</p>`;
   let temporizador1 = tiempo(inicio);
-  
+
   let nota_prefija = notacion_prefija(nota_postfija);
   let prefija = `<p><strong>Notación prefija:</strong> ${nota_prefija}</p>`;
   let temporizador2 = tiempo(inicio);
@@ -131,8 +131,6 @@ btn_calcular.addEventListener("click", () => {
     ${tiempo2}
     ${postfija}
     ${tiempo3}
-    
-    
   `/* ;
   document.getElementById("temporizador").innerHTML = `
     ${timeEnd('Temporizador')}
